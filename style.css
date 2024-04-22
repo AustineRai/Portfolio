@@ -233,6 +233,10 @@ p {
 }
 
 .portfolio {
+    background-color: #84A7A1;
+}
+
+.portfolio {
     background-image: url(https://i.pinimg.com/564x/b5/c7/36/b5c736d2c0a7ac2f40528ad4fdf8baf2.jpg);
     background-size: cover;
     background-position: top center;
@@ -307,7 +311,7 @@ p {
 }
 
 #projects {
-    background-color: #DDE6ED;
+    background-color: #84A7A1;
 }
 
 #projects .projects {
@@ -356,7 +360,7 @@ p {
 }
 
 #about {
-    background-color: #DDE6ED;
+    background-color: #84A7A1;
 }
 
 #about .col-left {
@@ -384,9 +388,50 @@ p {
     border: 10px solid white;
 }
 
+#skills {
+    background-color: #84A7A1;
+}
+
+#skills .skills {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#skills .skills-item {
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    transition: 0.5s ease box-shadow;
+}
+
+#skills .skills-item:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+#skills .icon {
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#skills .skills-info h2 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
 
 #contact {
-    background-color: #DDE6ED;
+    background-color: #84A7A1;
 }
 
 #contact .contact {
