@@ -308,7 +308,7 @@ p {
 }
 
 #projects {
-    background-color: #8576FF;
+    background-color: #84A7A1;
 }
 
 #projects .projects {
@@ -357,7 +357,7 @@ p {
 }
 
 #about {
-    background-color: #8576FF;
+    background-color: #84A7A1;
 }
 
 #about .col-left {
@@ -386,7 +386,7 @@ p {
 }
 
 #skills {
-    background-color: #8576FF;
+    background-color: #84A7A1;
 }
 
 #skills .skills {
@@ -428,7 +428,7 @@ p {
 }
 
 #contact {
-    background-color: #8576FF;
+    background-color: #84A7A1;
 }
 
 #contact .contact {
@@ -473,6 +473,44 @@ p {
     font-size: 1.3rem;
     line-height: 2rem;
     font-weight: 500;
+}
+
+#footer {
+    background-color: #9ad2ee;
+}
+
+#footer .footer {
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+#footer .social-item img {
+    filter: grayscale(1);
+    transition: 0.3s ease filter;
+}
+
+#footer .social-item:hover img {
+    filter: grayscale(0);
+}
+
+#footer p {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 @keyframes hamburger_puls {
